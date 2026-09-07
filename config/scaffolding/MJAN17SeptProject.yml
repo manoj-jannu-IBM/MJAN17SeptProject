@@ -7,11 +7,18 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: TechnologyConnector
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: licensed
 services:
 - serviceName: project.mjan17sept.integrations:PGPtest
   packages:
   - name: MJAN17SeptProject
     version: "1.0"
+- serviceName: pub.security:signAndEncrypt
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1126
 - serviceName: project.mjan17sept.pgp.connections:PGPAccount
   packages:
   - name: MJAN17SeptProject
