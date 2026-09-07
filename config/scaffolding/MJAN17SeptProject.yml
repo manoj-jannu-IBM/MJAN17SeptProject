@@ -12,6 +12,10 @@ services:
   packages:
   - name: MJAN17SeptProject
     version: "1.0"
+- serviceName: project.mjan17sept.pgp.connections:PGPAccount
+  packages:
+  - name: MJAN17SeptProject
+    version: "1.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
